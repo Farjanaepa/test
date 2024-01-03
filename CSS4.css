@@ -1,0 +1,40 @@
+.menu {
+    width:100% ;
+    overflow: hidden;
+    background-color: cornflowerblue;
+}
+.logo {
+    width: 20%;
+    float: left;
+    text-align: center;
+
+}
+.logo img{
+    width: 90px;
+    height: 70px;
+    margin-top: 10px;
+
+}
+.menu-bar {
+    width: 50%;
+    float: left;
+    display: flex;
+
+}
+.menu-bar a{
+    text-decoration: none;
+    color: rgb(63, 53, 52);
+    padding: 14px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    
+
+}
+.search-bar{
+    margin-top: 20px;
+}
+.menu-bar a:hover{
+    background-color: darkkhaki;
+    color: darkgreen;
+}

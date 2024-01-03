@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+img{
+    display: block;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+}
+ul{
+    list-style-type: none;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 5px 50px;
+}
+.mainmenu, .maincontainer{
+    display: flex;
+}
+
+.mainmenu li{
+    padding: 20px 30px;
+  
+}
+.mainmenu li:hover {
+    background-color: rgb(235, 165, 165);
+
+   
+    
+
+}
+.menu-bar3 img{
+    width: 600px;
+    
+}
+.mainmenu li{
+    color: rgb(4, 128, 236);
+}
+.mainmenu li a:hover{
+    color: black;
+
+}
+.dropdown-container{
+    position: absolute;
+    background-color: rgb(231, 225, 225);
+    margin-top: 10px;
+    margin-left: 10px;
+    display: none;
+    color: aliceblue;
+}
+.dropdown:hover .dropdown-container{
+    display: block;
+}
+.maincontainer{
+    width: 100%;
+
+}
+.menu-bar{
+    width: 10%;
+    background-color: bisque;
+
+}
+.menu-bar2{
+    width: 90%;
+   
+}
+.menu-bar a{
+    padding: 20px;
+    display: block;
+
+    
+}
+.menu-bar a:hover{
+    background-color: rgb(238, 171, 126);
+
+}
+.rightside{
+ 
+    padding-top: 20px;
+}
+.leftside{
+    padding-top: 15px;
+}
+.menubar4{
+    display: flex;
+}
+.menu-bar3 img{
+    width: 600px;
+    
+
+}
+.menubar4 img{
+    width: 400px;
+    
+}
+.menubar4{
+    display: flex;
+}
+.menu-bar3{
+    display: flex;
+}
